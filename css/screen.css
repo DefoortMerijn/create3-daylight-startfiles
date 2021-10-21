@@ -15,6 +15,10 @@
   /* opacity */
 
   /* transitions */
+
+  /* position */
+  --global-sun-position-left: 0%;
+  --global-sun-position-bottom: 0%;
 }
 
 /*------------------------------------*\
@@ -329,6 +333,8 @@ input::placeholder {
 }
 .c-horizon__sun {
   position: absolute;
+  left: var(--global-sun-position-left);
+  bottom: var(--global-sun-position-bottom);
   display: flex;
   flex-direction: column;
   justify-content: center;
